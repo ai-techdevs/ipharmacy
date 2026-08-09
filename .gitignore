@@ -1,0 +1,5 @@
+/public/storage
+.env.backup
+.env.production
+.env
+vendor

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>ipharmacy</title>
+    <!-- Bootstrap -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" media="all">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="css/slick.css" rel="stylesheet" media="all">
+    <link href="css/aos.css" rel="stylesheet" media="all">
+    <link href="css/menu.css" rel="stylesheet" media="all">
+    <link href="css/style.css" rel="stylesheet" media="all">
+    <link href="css/responsive.css" rel="stylesheet" media="all">
+    
+  </head>
+  <body>
+    
+    <section class="user-dashboard-wrapper">
+      <div class="user-dashboard-inner-wrap">
+        <div class="dashboard-sidebar">
+          <div class="db-sidebar-inner">
+            <div class="logo-wrap">
+              <a href="user-dashboard.html">
+                <img class="img-fluid" src="images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="db-menu-wrap">
+              <ul>
+                <li class="active">
+                  <a href="user-dashboard.html"> <span class="icon"> <img class="img-fluid" src="images/db-dashboard-home.svg" alt=""> </span> Dashboard</a>
+                </li>
+                <li>
+                  <a href="#"> <span class="icon"> <img class="img-fluid" src="images/db-drug-information-icon.svg" alt=""> </span> Drug Information</a>
+                </li>
+                <li>
+                  <a href="#"> <span class="icon"> <img class="img-fluid" src="images/db-forum-icon.svg" alt=""> </span> Forum</a>
+                </li>
+                <li>
+                  <a href="#"> <span class="icon"> <img class="img-fluid" src="images/db-cdc-media-icon.svg" alt=""> </span> CDC Media</a>
+                </li>
+                <li>
+                  <a href="#"> <span class="icon"> <img class="img-fluid" src="images/db-faqs-icon.svg" alt=""> </span> FAQs</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="logout-btn-wrap">
+            <a href="#" class="logout-btn">
+              <i class="fa-solid fa-arrow-right"></i> Logout
+            </a>
+          </div>
+        </div>
+        <div class="dashboard-body">
+          <div class="db-header-wrapper">
+            <div class="header-left-search">
+              <div class="db-head-search">
+                <form>
+                  <div class="search-box-inner">
+                    <div class="search-btn-wrp">
+                      <button class="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                    <div class="search-box">
+                      <input class="form-control" type="search" name="" placeholder="Search drug information...">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="user-notification-wrap">
+              <ul class="user-notification-inner">
+                <li class="notification-wrap">
+                  <a href="#" class="notification-btn">
+                    <i class="fa-regular fa-bell"></i>
+                  </a>
+                </li>
+                <li class="user-dropdown">
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="user-img">
+                        <img class="img-fluid" src="images/auth-img2.jpg" alt="">
+                      </span>
+                      <div class="user-details">
+                        <h5>Alena Johnson</h5>
+                        <p>Customer</p>
+                      </div>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="account-setting.html">Account Setting</a></li>
+                      <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <button class="sidebar-tigger">
+                    <i class="fa-solid fa-bars"></i>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="db-body-inner">
+            <div class="row">
+              <div class="col-12 col-lg-6 mb-4">
+                <div class="type-drug-name-wrap">
+                  <div class="heading">
+                    <div class="title">
+                      <h4>Type Drug Name</h4>
+                    </div>
+                    <div class="share-btn-wrap">
+                      <button class="share-btn" data-bs-toggle="modal" data-bs-target="#ShareSocialModal"><img class="img-fluid" src="images/share-icon.svg" alt=""></button>
+                    </div>
+                  </div>
+                  <div class="type-drug-input">
+                    <select class="form-select">
+                      <option>Benadryl Oral</option>
+                      <option>Benadryl Oral</option>
+                      <option>Benadryl Oral</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="db-forum-wrap">
+                  <h3>Forum</h3>
+                  <div class="forum-list">
+                    <div class="forum-heading-wrap">
+                      <div class="forum-heading">
+                        <h3>Smart choice begin with drug search?</h3>
+                        <ul class="tag-list">
+                          <li><a href="#">#medcine</a></li>
+                          <li><a href="#">#information</a></li>
+                          <li><a href="#">#drug</a></li>
+                        </ul>
+                      </div>
+                      
+                    </div>
+                    <div class="main-comment-wrap">
+                      <div class="main-comment">
+                        <div class="comment-author">
+                          <div class="auth-img">
+                            <img class="img-fluid" src="images/auth-img1.jpg" alt="">
+                          </div>
+                          <div class="auth-details">
+                            <h5>Calina Smith </h5>
+                            <ul>
+                              <li>12h ago</li>
+                              <li>12 answers</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <p>Donec ipsum leo, accumsan non rutrum nec, dignissim ut turpis. Integer nec consequat odio. In libero justo, aliquet ac ultrices id, posuere eu nisi. Phasellus dolor urna, auctor vitae consequat ac, sagittis quis tortor. Ut auctor, lorem in consectetur rhoncus, nisi dolor venenatis erat, id luctus turpis nibh et nulla.</p>
+                        <div class="comment-author-list-wrap">
+                          <ul>
+                            <li>
+                              <div class="author-wrap">
+                                <img class="img-fluid" src="images/auth-img2.jpg" alt="">
+                              </div>
+                            </li>
+                            <li>
+                              <div class="author-wrap">
+                                <img class="img-fluid" src="images/auth-img3.jpg" alt="">
+                              </div>
+                            </li>
+                            <li>
+                              <div class="author-wrap">
+                                <img class="img-fluid" src="images/auth-img4.jpg" alt="">
+                              </div>
+                            </li>
+                            <li>
+                              <div class="author-wrap">
+                                <img class="img-fluid" src="images/auth-img5.jpg" alt="">
+                              </div>
+                            </li>
+                            <li>
+                              <div class="author-wrap">
+                                <img class="img-fluid" src="images/auth-img6.jpg" alt="">
+                              </div>
+                            </li>
+                            <li>
+                              <div class="author-count">
+                                +12
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="horizontal-lines">
+                          <hr>
+                        </div>
+                      </div>
+                      <div class="comment-share-wrap">
+                        <div class="comment-share">
+                          <ul>
+                            <li>
+                              <button class="like-btn">
+                                <i class="fa-regular fa-thumbs-up"></i> 8 Like
+                              </button>
+                            </li>
+                            <li>
+                              <button class="comment-btn">
+                                <i class="fa-regular fa-message"></i> 5 Comment
+                              </button>
+                            </li>
+                            <li>
+                              <button class="share-btn">
+                                <img class="img-fluid" src="images/share-icon.svg" alt=""> 1 Share
+                              </button>
+                            </li>
+                          </ul>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="db-cdc-media-wrap">
+                  <h3>CDC Media</h3>
+                  <div class="db-cdc-media">
+                    <div class="img-box">
+                      <img class="img-fluid" src="images/cdc-media-img1.jpg" alt="">
+                    </div>
+                    <div class="db-cdc-media-content">
+                      <ul>
+                        <li>Jinia Anderson</li>
+                        <li>22th July 2024</li>
+                      </ul>
+                      <h4>Empowering Health Through To Our Knowledge</h4>
+                      <p>Nulla vulputate ligula eu sagittis vulputate. Integer laccbh doloinia molestie mattis. Aliquam ultricies felis </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="db-faq-wrap">
+                  <h3>Frequently Asked Questions </h3>
+
+                  <div class="faq-wrap">
+                    <div class="accordion" id="FAQaccordion">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading1">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                            How do I use the Search feature?
+                          </button>
+                        </h2>
+                        <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#FAQaccordion">
+                          <div class="accordion-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti rerum in nisi veritatis iure animi atque veniam, minus quia fugiat corporis. Animi, illum. Itaque dignissimos iure eligendi illum explicabo alias!</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading2">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            How do I qualify for drug coupons?
+                          </button>
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#FAQaccordion">
+                          <div class="accordion-body">
+                            <p>To qualify for drug coupons, you must be a registered user of this site.  If you are not a registered user and would like to join, please click the Register link at the top of the page.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading3">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            How can I participate in the IP Forum?
+                          </button>
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#FAQaccordion">
+                          <div class="accordion-body">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo suscipit ullam assumenda vel voluptas quibusdam, dolor sequi laborum tempore placeat sunt accusamus temporibus inventore laudantium tenetur, necessitatibus commodi sapiente nam?</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- share social media -->
+    <div class="modal fade share-social-modal-wrap" id="ShareSocialModal" tabindex="-1" aria-labelledby="ShareSocialLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+          <div class="modal-body">
+            <div class="title">
+              <h3>Share</h3>
+            </div>
+            <div class="social-media-wrap">
+              <ul>
+                <li>
+                  <a href="#">
+                    <img class="img-fluid" src="images/social-icon-facebook.png" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img class="img-fluid" src="images/social-icon-email.png" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img class="img-fluid" src="images/social-icon-twitter.png" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img class="img-fluid" src="images/social-icon-linkedin.png" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img class="img-fluid" src="images/social-icon-whatsapp.png" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img class="img-fluid" src="images/social-icon-wechat.png" alt="">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/external.js"></script>
+  </body>
+</html>

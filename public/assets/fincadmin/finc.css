@@ -1,0 +1,156 @@
+body {
+/*    background-color: #f3f4ef;*/
+}
+* {
+    font-family: ui-sans-serif,-apple-system,system-ui,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica,Apple Color Emoji,Arial,Segoe UI Emoji,Segoe UI Symbol ;
+}
+
+label {
+        margin-bottom: 10px;
+    color: #000;
+    font-weight: 600;
+}
+
+td a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #424242;
+}
+
+.hr-cgt {
+    opacity: 0.1;
+}
+
+.btn-primary,.btn-primary:hover,.btn-primary:active {
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: #000;
+  border-color: #000;
+}
+
+.bg-grey {
+    background-color: #f5f7fa;
+}
+
+/*.bg-primary {
+    background-color: #000;
+}
+
+.text-primary {
+ color: #000;   
+}*/
+
+.text-grey {
+ color: #333;
+}
+
+.signup-text {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #333;
+    margin-top: 10px;
+    }
+
+.signup-form {
+    margin-right: 1rem!important;
+    margin-left: 1rem!important;
+}
+
+@media (min-width: 576px) {
+  .signup-form {
+    margin-right: 5rem!important;
+    margin-left: 5rem!important;
+}
+.main {
+    padding-left: 16.25rem
+}
+.w-sm-50 {
+    width: 50%!important;
+}
+
+.w-sm-75 {
+    width: 75%!important;
+}
+
+.w-sm-80 {
+    width: 80%!important;
+}
+
+
+}
+
+.navbar-vertical-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    width: 16.25rem;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        background-color: #e13e22;
+    border-radius: 0;
+    color: #fff;
+    font-weight: 800;
+}
+
+.text-bg-dark {
+    color: #fff !important;
+    background-color: #e13e22 !important;
+}
+
+.active>.page-link, .page-link.active {
+        background-color: #000;
+    border-color: #000;
+}
+
+.page-link,.page-link:hover {
+    color: #000;
+}
+
+.dataTables_wrapper .dataTables_processing {
+    background-color: #d7fec8 !important;
+}
+
+div.dataTables_processing>div:last-child>div {
+    background: #000;
+}
+
+.bg-soft-success {
+    background-color: rgba(0,201,167,.1)!important;
+}
+
+.card-title {
+    min-height: 70px;
+}
+
+.fs-6 {
+    font-size: 0.8rem!important;
+}
+
+.border-cgt {
+    border: 2px solid #05aa50;
+}
+
+.list-finc li {
+  margin:10px 0px 0px 10px;
+}
+
+.form-check-input:checked {
+    background-color: #000;
+    border-color: #000;
+}
+
+.form-check-input:focus {
+    border-color: #000;
+    box-shadow: 0 0 0 0.25rem rgba(11, 153, 110, 0.25);
+}

@@ -1,0 +1,736 @@
+@media(min-width:1400px){
+
+}
+/*max width 1399px*/
+@media(max-width:1399px){
+    /* header css start */
+    .header-wrapper .navbar .navbar-nav li{
+        padding: 2px 5px;
+    }
+    .header-wrapper .navbar .navbar-nav li a{
+        font-size: 14px;
+    }
+    /* header css end */
+    /* banner css start */
+    .banner-content h3{
+        font-size: 70px;
+    }
+    .bnr-img3{
+        width: 300px;
+    }
+    .bnr-img4{
+        width: 300px;
+    }
+    /* banner css end */
+    /* inner banner css start */
+    .inner-banner-wrapper .inner-banner-wrap h1{
+        font-size: 40px;
+    }
+    /* inner banner css end */
+}
+/*max width 1200px to 1399px*/
+@media(min-width: 1200px) and (max-width: 1399px){
+
+    /* header css start */
+    .header-wrapper .navbar .logo-wrap img{
+        height: 60px;
+    }
+    .header-wrapper .navbar .main-menu > li {
+        padding: 0px 5px;
+    }
+    .my-ac-wrap ul li {
+        padding: 0px 8px;
+    }
+    /* header css end */
+}
+/*max width 1199px*/
+@media(max-width: 1199px){
+    /*#### Header css start ####*/
+    .header-wrapper .navbar .logo-wrap{
+        position: relative;
+    }
+    .header-wrapper .navbar .logo-wrap img{
+        height: 60px;
+    }
+    .header-wrapper .navbar .navbar-nav li a {
+        font-size: 13px;
+        padding: 0px 3px;
+    }
+    .head-search-wrap{
+        max-width: 160px;
+    }
+    .my-ac-wrap ul li{
+        padding: 0px 5px;
+    }
+    .my-ac-wrap ul li a{
+        font-size: 14px;
+    }
+
+    /* header new menu */
+
+    /*#### Header css end ####*/
+    /*#### Banner css start ####*/
+    .banner-content h3 {
+        font-size: 60px;
+    }
+    
+    /*#### Banner css end ####*/
+    /* inner banner css start */
+    .inner-banner-wrapper .inner-banner-wrap h1{
+        font-size: 35px;
+    }
+    /* inner banner css end */
+
+    /*#### coupons css start #####*/
+    .coupons-left-content{
+        padding: 25px 25px;
+    }
+    .coupons-left-content .offer-text .off{
+        font-size: 20px;
+        padding: 8px 15px;
+    }
+    .coupons-left-content h3{
+        font-size: 30px;
+    }
+    .coupons-left-content p{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    /*#### coupons css end #####*/
+
+    /*##### Login Sign up js start ###*/
+    .login-register-body .logo-wrap{
+        width: 200px;
+    }
+    .login-register-form .title h3{
+        font-size: 30px;
+    }
+    .login-register-form .title p{
+        font-size: 14px;
+    }
+    /*##### Login Sign up js end ###*/
+
+}
+
+/*max width 992px to 1199px*/
+@media(min-width: 992px) and (max-width: 1199px){
+    .header-wrapper .navbar .logo-wrap img{
+        height: 45px;
+    }
+    .header-wrapper .navbar .main-menu > li{
+        padding: 0px 5px;
+    }
+    .header-wrapper .navbar .main-menu li > a{
+        font-size: 14px;
+    }
+    .head-search-wrap {
+        max-width: 150px;
+    }
+    .my-ac-wrap ul li{
+        padding: 0px 3px;
+    }
+}
+
+/*max width 991px*/
+@media(max-width: 991px){
+    .common-title h3{
+        font-size: 30px;
+    }
+	/* header css start */
+    .header-wrapper .navbar .navbar-toggler{
+        background-color: #8bc7ea;
+        border-color: #8bc7ea;
+    }
+    .header-wrapper .navbar .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        padding: 20px 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 50%);
+    }
+    .header-wrapper .navbar .navbar-nav li{
+        padding: 10px 5px;
+    }
+	/* header css end */
+	/* banner css start */
+    .banner-content h3 {
+        font-size: 50px;
+    }
+    .bnr-img1{
+        width: 200px;
+    }
+    .bnr-img2{
+        width: 200px;
+    }
+    .bnr-img3 {
+        width: 200px;
+    }
+    .bnr-img4 {
+        width: 200px;
+    }
+	/* banner css end */
+    .about-left-content h3{
+        font-size: 30px;
+    }
+    .cdc-media-list .img-box .cdc-btn-wrap .cdc-btn{
+        width: 45px;
+        height: 45px;
+    }
+    .cdc-media-list .cdc-media-content h5{
+        font-size: 16px;
+    }
+    .cdc-media-list .cdc-media-content h4{
+        font-size: 20px;
+    }
+    .cdc-media-list .cdc-media-content p{
+        font-size: 15px;
+    }
+    .faq-section-wrapper{
+        padding: 60px 0px;
+    }
+    .footer-main-wrapper{
+        padding-top: 50px;
+    }
+    .footer-inner-wrap h3{
+        font-size: 20px;
+    }
+
+    /*##### Inner banner css start ####*/
+    .inner-banner-wrapper .inner-banner-wrap{
+        padding: 40px 20px;
+    }
+    .inner-banner-wrapper .inner-banner-wrap .banner-breadcrumb .breadcrumb li{
+        font-size: 14px;
+    }
+    .inner-banner-wrapper .inner-banner-wrap .banner-breadcrumb .breadcrumb li a{
+        font-size: 14px;
+    }
+    .inner-banner-wrapper .inner-banner-wrap h1{
+        font-size: 30px;
+    }
+    .common-gap{
+        padding: 40px 0px;
+    }
+    /*##### Inner banner css end ####*/
+    /*##### Login Sign up js start ###*/
+    .login-register-form-wrap{
+        padding: 30px 0px;
+        padding-left: 0%;
+        padding-top: 70px;
+    }
+   
+    /*##### Login Sign up js end ###*/
+
+    /*#### drug information pages css start ###*/
+        .drug-name-list h4{
+            font-size: 16px;
+        }
+        .drug-name-list h5{
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .drug-information-serv-list .name{
+            font-size: 15px;
+        }
+
+        .drug-information-listing-wrap .title .info-name{
+            padding: 12px 15px;
+        }
+        .drug-information-listing-wrap ul li{
+            font-size: 14px;
+        }
+        .drug-information-listing-wrap h4{
+            font-size: 18px;
+        }
+        .drug-information-listing-wrap p{
+            font-size: 14px;
+        }
+        /* form page css */
+        .drug-information-form-wrap .title-wrap .title{
+            font-size: 20px;
+        }
+        .drug-information-form-wrap .title-wrap .title .icon{
+            width: 60px;
+            height: 60px;
+        }
+        .drug-information-form-wrap .title-wrap .email-print-btn-wrap ul li a{
+            width: 40px;
+            height: 40px;
+            padding: 10px;
+        }
+        .drug-information-form-wrap .drug-name-about-wrap .drug-name-wrap{
+            width: 100%;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .drug-information-form-wrap .drug-name-about-wrap .drug-about-content{
+            width: 100%;
+            padding-left: 0px;
+        }
+        .drug-information-form-wrap .drug-name-about-wrap .drug-about-content .drug-about{
+            width: 100%;
+        }
+        .drug-information-form-wrap .drug-name-about-wrap .drug-about-content .content{
+            width: 100%;
+        }
+        .drug-information-form-wrap .drug-name-about-wrap .drug-about-content .content p{
+            font-size: 14px;
+        }
+    /*#### drug information pages css end ###*/
+    
+    /*#### forum page css start #####*/
+    .forum-list .forum-heading-wrap .forum-heading h3{
+        font-size: 20px;
+    }
+    .forum-list .forum-heading-wrap .forum-heading .tag-list li a{
+        font-size: 15px;
+        padding: 6px 12px;
+    }
+    .forum-list .forum-heading-wrap .forum-heading{
+        width: calc(100% - 60px);
+    }
+    .forum-list .forum-heading-wrap .bookmark-btn-wrap{
+        width: 60px;
+    }
+    .forum-list .forum-heading-wrap .bookmark-btn-wrap .bookmark-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .forum-list .main-comment-wrap .main-comment p{
+        font-size: 14px;
+    }
+    .forum-list .main-comment-wrap .comment-share-wrap .comment-share ul li button{
+        font-size: 14px;
+    }
+    .forum-list .main-comment-wrap .comment-share-wrap .comment-share ul li button i{
+        font-size: 18px;
+    }
+
+    /*  */
+    .forum-list .comment-accordion-body{
+        width: 100%;
+    }
+    .forum-list .comment-accordion-body .sub-main-comment-wrap .sub-auth-details h4, .forum-list .comment-accordion-body .sub-child-comments-wrap .sub-child-comment-list .sub-child-comment-dtls h4{
+        font-size: 16px;
+    }
+    .forum-list .comment-accordion-body .sub-main-comment-wrap .sub-auth-details p, .forum-list .comment-accordion-body .sub-child-comments-wrap .sub-child-comment-list .sub-child-comment-dtls p{
+        font-size: 14px;
+    }
+
+    .forum-list .comment-accordion-body .write-comment-wrap .write-comment-input{
+        width: calc(100% - 120px);
+    }
+    .forum-list .comment-accordion-body .write-comment-wrap .write-comment-btn{
+        width: 120px;
+    }
+    .forum-list .comment-accordion-body .write-comment-wrap .write-comment-btn ul li .send-btn{
+        width: 40px;
+        height: 40px;
+    }
+    .forum-list .comment-accordion-body .write-comment-wrap .write-comment-btn ul li button img{
+        height: 20px;
+    }
+    /*#### forum page css end #####*/
+
+    /*#### donation page css start ####*/
+    .donation-right-wrap .donation-title-wrap .donation-title{
+        width: 100%;
+    }
+    .donation-right-wrap .donation-title-wrap .donation-title h3{
+        font-size: 30px;
+    }
+    .donation-right-wrap .donation-title-wrap .donation-currency-wrap{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    /*#### donation page css end ####*/
+
+    /*#### CDC Media details page css start ####*/
+    .cdc-media-details-wrapper .heading h3{
+        font-size: 30px;
+    }
+    .cdc-media-details-wrapper .cdc-media-details-img img{
+        height: 350px;
+    }
+    .cdc-media-details-content p{
+        font-size: 15px;
+    }
+    .cdc-media-details-content h4{
+        font-size: 20px;
+    }
+    .cdc-media-details-content h5{
+        font-size: 18px;
+    }
+
+    .comment-form-wrap .title h3{
+        font-size: 30px;
+    }
+    .comment-form-wrap .title p {
+        font-size: 14px;
+    }
+    /*#### CDC Media details page css end ####*/
+
+    /*#### sign up clinical trials css start ####*/
+    .signup-clinical-form-wrap{
+        padding: 30px 30px;
+    }
+    .signup-clinical-form-wrap .title h3{
+        font-size: 30px;
+    }
+    /*#### sign up clinical trials css end ####*/
+    /*#### coupons page css start ####*/
+    .coupons-inner-wrap{
+        padding: 20px 20px;
+        padding-bottom: 0;
+    }
+    .coupons-left-content .offer-text .off {
+        font-size: 16px;
+    }
+    .coupons-left-content h3 {
+        font-size: 25px;
+    }
+    /*#### coupons page css end ####*/
+
+    /* Gap css start */
+    .drug-information-wrapper{
+        padding: 40px 0px;
+    }
+    /* Gap css end */
+
+    /*##### Dashboard css start #####*/
+    .user-dashboard-wrapper .user-dashboard-inner-wrap .dashboard-sidebar{
+        width: 200px;
+        padding: 12px 10px;
+    }
+    .user-dashboard-wrapper .user-dashboard-inner-wrap .dashboard-body{
+        width: calc(100% - 200px);
+    }
+
+    .dashboard-sidebar .db-sidebar-inner .db-menu-wrap ul li a{
+        padding: 10px 8px;
+        font-size: 13px;
+    }
+    .dashboard-sidebar .db-sidebar-inner .db-menu-wrap ul li a .icon{
+        width: 20px;
+    }
+
+    .db-head-search{
+        width: 99%;
+    }
+
+    /*  */
+    .db-head-search .search-box-inner .search-box .form-control{
+        height: 40px;
+        font-size: 14px;
+    }
+    .user-notification-wrap > ul.user-notification-inner li.notification-wrap .notification-btn{
+        width: 40px;
+        height: 40px;
+    }
+    .user-notification-wrap > ul.user-notification-inner li.user-dropdown .dropdown button.btn .user-img{
+        width: 40px;
+        height: 40px;
+    }
+    .user-notification-wrap > ul.user-notification-inner li.user-dropdown .dropdown button.btn .user-details h5{
+        font-size: 14px;
+    }
+    .user-notification-wrap > ul.user-notification-inner li.user-dropdown .dropdown button.btn .user-details p{
+        font-size: 12px;
+    }
+
+    /*##### Dashboard css end #####*/
+
+}
+
+/*width 768px to 991px*/
+@media(min-width: 768px) and (max-width: 991px){
+    /*#### CDC Media details page css start ####*/
+    .sidebar-comment-list .sidebar-comment-auth .auth-img{
+        width: 40px;
+        height: 40px;
+    }
+    .sidebar-comment-list .sidebar-comment-auth .auth-dtls{
+        width: calc(100% - 40px);
+    }
+    .sidebar-comment-list .sidebar-comment-auth .auth-dtls h4{
+        font-size: 16px;
+    }
+    .sidebar-comment-list .sidebar-comment-auth .auth-dtls h6{
+        font-size: 14px;
+    }
+    .sidebar-comment-list p{
+        font-size: 14px;
+    }
+    /*#### CDC Media details page css end ####*/
+}
+
+/*max width 767px*/
+@media(max-width: 767px){
+    .common-title h3 {
+        font-size: 25px;
+    }
+	/* header css start */
+    .header-wrapper .navbar .logo-wrap{
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+	/* header css end */
+    /*### Banner css start ###*/
+    .banner-content h3 {
+        font-size: 35px;
+    }
+    .bnr-img1, .bnr-img2, .bnr-img3, .bnr-img4 {
+        width: 150px;
+    }
+    /*### Banner css end ###*/
+    /*### Home page css start ###*/
+    .about-left-content h3 {
+        font-size: 25px;
+    }
+
+    /*  */
+    .cdc-media-list .cdc-media-content h5 {
+        font-size: 14px;
+    }
+    .cdc-media-list .cdc-media-content h4 {
+        font-size: 18px;
+    }
+    .cdc-media-list .cdc-media-content p {
+        font-size: 14px;
+    }
+    /*  */
+    
+    .faq-wrap .accordion-item .accordion-button{
+        font-size: 16px;
+    }
+
+    .footer-trams-menu ul{
+        justify-content: center;
+        margin-bottom: 8px;
+    }
+    .footer-copyright p{
+        text-align: center;
+    }
+    /*### Home page css end ###*/
+    /*##### Login Sign up js start ###*/
+    
+    .login-register-form .login-register-form-inner{
+        max-height: none;
+        padding-right: 0px;
+        overflow-y: unset;
+    }
+    /*##### Login Sign up js end ###*/
+    /*##### Coupons css start ####*/
+    .coupons-left-content {
+        padding: 10px 10px;
+    }
+    /*##### Coupons css end ####*/
+
+    /*#### cdc-media-details page css start ####*/
+    .cdc-media-details-wrapper .cdc-media-details-img img {
+        height: 250px;
+    }
+    /*#### cdc-media-details page css start ####*/
+
+    /*##### Dashboard css start #####*/
+    .user-dashboard-wrapper .user-dashboard-inner-wrap .dashboard-sidebar{
+        display: none;
+    }
+    .user-dashboard-wrapper .user-dashboard-inner-wrap .dashboard-body{
+        width: 100%;
+        padding-left: 0;
+    }
+    .user-dashboard-wrapper.menuopen .user-dashboard-inner-wrap .dashboard-sidebar{
+        display: flex;
+    }
+    .user-dashboard-wrapper.menuopen .user-dashboard-inner-wrap .dashboard-body{
+        width: calc(100% - 200px);
+    }
+    /* ### */
+    .db-header-wrapper .header-left-search{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .db-header-wrapper .user-notification-wrap{
+        width: 100%;
+    }
+
+    .db-cdc-media-wrap .db-cdc-media .img-box{
+        width: 100%;
+    }
+    .db-cdc-media-wrap .db-cdc-media .db-cdc-media-content{
+        width: 100%;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+    /*##### Dashboard css end #####*/
+}
+
+/*width 576px to 767px*/
+@media(min-width: 576px) and (max-width: 767px){
+
+}
+
+/*max with 575px*/
+@media(max-width: 575px){
+    .my-ac-wrap ul li {
+        padding: 0px 3px;
+    }
+    .head-search-wrap {
+        max-width: 130px;
+    }
+	.banner-content h3 {
+        font-size: 30px;
+    }
+    .bnr-img1, .bnr-img2, .bnr-img3, .bnr-img4 {
+        width: 130px;
+    }
+
+    .partners-about-wrapper .title h3{
+        font-size: 20px;
+    }
+
+    /* inner banner css start */
+    .inner-banner-wrapper .inner-banner-wrap {
+        padding: 30px 15px;
+    }
+    .inner-banner-wrapper .inner-banner-wrap h1 {
+        font-size: 20px;
+    }
+    .inner-banner-wrapper .inner-banner-wrap .banner-breadcrumb .breadcrumb li {
+        font-size: 13px;
+    }
+    /* inner banner css end */
+
+    /*##### drug information pages css start ####*/
+    .floating-btn-wrap .floating-content{
+        width: calc(100% - 35px);
+        margin-left: auto;
+    }
+    .floating-btn-wrap .floating-content ul li .name{
+        font-size: 14px;
+        width: calc(100% - 50px);
+        text-align: right;
+    }
+
+    /* form page */
+    .drug-information-form-wrap .title-wrap .title{
+        width: 100%;
+    }
+    .drug-information-form-wrap .title-wrap .title {
+        font-size: 18px;
+    }
+    .drug-information-form-wrap .title-wrap .email-print-btn-wrap{
+        width: 100%;
+    }
+    /* popup */
+    .send-email-modal-wrap .modal-body {
+        padding: 30px 30px;
+    }
+    .send-email-modal-wrap .modal-body .title h3{
+        font-size: 22px;
+    }
+
+    .share-social-modal-wrap .modal-body{
+        padding: 30px 30px;
+    }
+    .share-social-modal-wrap .modal-body .title h3{
+        font-size: 22px;
+    }
+    .share-social-modal-wrap .modal-body .social-media-wrap ul li a{
+        width: 60px;
+        height: 60px;
+    }
+    /*##### drug information pages css end ####*/
+
+    /*#### forum page css start #####*/
+    .forum-list .forum-heading-wrap .forum-heading h3 {
+        font-size: 18px;
+    }
+    .forum-list .forum-heading-wrap .forum-heading .tag-list li a {
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+    .forum-list .comment-accordion-body .sub-child-comments-wrap{
+        width: calc(100% - 25px);
+    }
+    .forum-list .comment-accordion-body .sub-main-comment-wrap .auth-img, .forum-list .comment-accordion-body .sub-child-comments-wrap .sub-child-comment-list .sub-child-authimg{
+        width: 50px;
+        height: 50px;
+    }
+    .forum-list .comment-accordion-body .sub-main-comment-wrap .sub-auth-details h4, .forum-list .comment-accordion-body .sub-child-comments-wrap .sub-child-comment-list .sub-child-comment-dtls h4{
+        margin-bottom: 2px;
+    }
+
+    .forum-list .main-comment-wrap .comment-share-wrap .comment-share ul{
+        gap: 3px;
+    }
+    .forum-list .main-comment-wrap .comment-share-wrap .comment-share ul li button {
+        font-size: 12px;
+    }
+    .forum-list .main-comment-wrap .comment-share-wrap .comment-share ul li button i {
+        font-size: 15px;
+    }
+    .forum-list .main-comment-wrap .comment-share-wrap .comment-share ul li button.share-btn img{
+        height: 16px;
+    }
+    /*#### forum page css end #####*/
+
+    /*#### Dashboard pages css start #####*/
+    .user-notification-wrap > ul.user-notification-inner li.user-dropdown .dropdown button.btn .user-details h5 {
+        font-size: 12px;
+    }
+    .user-notification-wrap > ul.user-notification-inner li.user-dropdown .dropdown button.btn .user-details{
+        display: none;
+    }
+
+
+    .account-setting-wrap .account-profile-picture-change .account-profile-picname{
+        width: 100%;
+    }
+    .account-setting-wrap .account-profile-picture-change .picture-change-btn{
+        width: 100%;
+        text-align: left;
+        margin-top: 10px;
+    }
+    .account-setting-wrap .account-profile-picture-change .picture-change-btn .file-input__label{
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    /*#### Dashboard pages css end #####*/
+
+
+}
+
+@media(max-width:400px){
+    /* footer css start */
+    .footer-main-wrapper{
+        padding-top: 30px;
+    }
+    .footer-menu ul li{
+        width: 100%;
+        padding: 6px 0px;
+    }
+    /* footer css end */
+    /* forum page css start */
+    .forum-list .main-comment-wrap .comment-share-wrap .comment-share{
+        width: calc(100% - 25px);
+    }
+    .forum-list .main-comment-wrap .comment-share-wrap .comment-share ul li button{
+        padding: 0px;
+    }
+    .forum-list .main-comment-wrap .comment-share-wrap .accordion-btn-wrap{
+        width: 25px;
+    }
+    .forum-list .main-comment-wrap .comment-share-wrap .accordion-btn-wrap .accordion-btn{
+        font-size: 16px;
+    }
+    /* forum page css end */
+}

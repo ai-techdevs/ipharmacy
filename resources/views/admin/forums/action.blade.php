@@ -1,0 +1,6 @@
+<div class='btn-group'>
+    <a href="{{ route('admin.forums.show', $id) }}" class='btn btn-default btn-xs'>
+        <i class="fas fa-eye"></i>
+    </a>
+</div>
+
