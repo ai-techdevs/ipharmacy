@@ -61,6 +61,11 @@ Route::group(['as' => 'admin.', 'prefix' => 'admin'], function () {
         // CDC
         Route::resource('/cdcs', App\Http\Controllers\Admin\CdcController::class);
 
+        // Temp CDC
+        Route::post('/temp-cdc-posts/sync', [App\Http\Controllers\Admin\TempCdcPostController::class, 'manualSync'])->name('temp-cdc-posts.sync');
+        Route::post('/temp-cdc-posts/{id}/toggle-status', [App\Http\Controllers\Admin\TempCdcPostController::class, 'toggleStatus'])->name('temp-cdc-posts.toggle-status');
+        Route::resource('/temp-cdc-posts', App\Http\Controllers\Admin\TempCdcPostController::class);
+
         // FAQ
         Route::resource('/faqs', App\Http\Controllers\Admin\FAQController::class);
 

@@ -64,8 +64,7 @@ class HomeController extends Controller
   {
     $banners   = Banner::where(['banner_type' => 'working-partner', 'page_name' => 'home'])->get();
     $sections  = Page::where('status', 1)->get();
-     $settings  = Setting::where('is_visible', 1)->get();
-
+    $settings  = Setting::where('is_visible', 1)->get();
     $home      = $sections->where('section_name', 'home')->first();
 
     $cdc       = $sections->where('section_name', 'cdc_media')->first();
@@ -269,7 +268,11 @@ public function ask(Request $request)
   public function mediaDetail(Request $request, $slug)
   {
     $cdc = Cdc::where('slug', $slug)->first();
+    if (!$cdc || $cdc->status != 1) {
+      abort(404);
+    }
     $cdcs = Cdc::where('status', 1)
+      ->where('slug', '<>', $slug)
       ->orderBy('created_at', 'desc')
       ->take(3)
       ->get();

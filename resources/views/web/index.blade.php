@@ -109,7 +109,7 @@
                                 <h5>{{ $cdc->author }} {{ \Carbon\Carbon::parse($cdc->created_at)->format('jS F Y') }}
                                 </h5>
                                 <h4><a href="{{route('media-detail',$cdc->slug)}}">{{ $cdc->title }}</a></h4>
-                                <p>{!! Str::limit($cdc->description, 100) !!} </p>
+                                <p>{!! Str::limit(strip_tags($cdc->description), 100) !!} </p>
                             </div>
                         </div>
                     </div>

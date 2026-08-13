@@ -232,7 +232,7 @@
                     @if (count($ids) > 0)
                         @foreach ($ids as $id)
                             @php
-                                $relatedBlog = \App\Models\Cdc::find($id);
+                                $relatedBlog = \App\Models\Cdc::where('status', 1)->find($id);
                             @endphp
                             <div class="col-12 col-md-4 mb-4">
                                 <div class="cdc-media-list">
@@ -252,7 +252,7 @@
                                         <h4><a
                                                 href="{{ route('media-detail', $relatedBlog->slug) }}">{{ $relatedBlog->title }}</a>
                                         </h4>
-                                        <p>{!! Str::limit($relatedBlog->description, 100) !!} </p>
+                                        <p>{!! Str::limit(strip_tags($relatedBlog->description), 100) !!} </p>
                                     </div>
                                 </div>
                             </div>
@@ -285,7 +285,7 @@
                                         </h5>
                                         <h4><a href="{{ route('media-detail', $cdc->slug) }}">{{ $cdc->title }}</a>
                                         </h4>
-                                        <p>{!! Str::limit($cdc->description, 100) !!} </p>
+                                        <p>{!! Str::limit(strip_tags($cdc->description), 100) !!} </p>
                                     </div>
                                 </div>
                             </div>

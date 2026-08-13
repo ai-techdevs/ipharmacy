@@ -29,6 +29,9 @@ return Application::configure(basePath: dirname(__DIR__))
             'paypal/*', 
         ]);
     })
+    ->withSchedule(function (\Illuminate\Console\Scheduling\Schedule $schedule) {
+        $schedule->command('cdc:import')->daily();
+    })
     ->withExceptions(function (Exceptions $exceptions) {
         //
     })->create();

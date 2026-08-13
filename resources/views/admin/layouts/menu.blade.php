@@ -45,9 +45,15 @@
       @endcan
       @can('cdcs.view')
       <li class="nav-item">
-        <a href="{{route('admin.cdcs.index')}}" class="nav-link {{ Request::is('*cdcs*') ? 'active' : '' }}">
+        <a href="{{route('admin.cdcs.index')}}" class="nav-link {{ Request::is('*cdcs*') && !Request::is('*temp-cdc-posts*') ? 'active' : '' }}">
             <i class="nav-icon fas fa-blog"></i>
             <p>CDC</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="{{route('admin.temp-cdc-posts.index')}}" class="nav-link {{ Request::is('*temp-cdc-posts*') ? 'active' : '' }}">
+            <i class="nav-icon fas fa-download"></i>
+            <p>Synced CDC Posts</p>
         </a>
       </li>
       @endcan
@@ -126,8 +132,7 @@
         </a>
       </li>
       @endcan
-      
-         @can('pages.view')
+       @can('pages.view')
       <li class="nav-item">
         <a href="{{route('admin.pages.index')}}" class="nav-link {{ Request::is('*pages*') ? 'active' : '' }}">
        <i class="nav-icon fas fa-file-alt"></i>
